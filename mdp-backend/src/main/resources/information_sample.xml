@@ -1,0 +1,9 @@
+<informationStore>
+	<information>
+		<id>1</id>
+		<senderName>senderName</senderName>
+		<receiverName>receiverName</receiverName>
+		<messageContent>messageContent</messageContent>
+		<rsvp>true</rsvp>
+	</information>
+</informationStore>

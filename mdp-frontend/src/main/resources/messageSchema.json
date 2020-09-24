@@ -1,0 +1,29 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Message",
+	"description": "A message to be sent from sender to recipient",
+	"type": "object",
+	"properties": {
+		"id": {
+			"description": "The unique identifier for a message",
+			"type": "number"
+		},
+		"senderName": {
+			"description": "Name of the sender",
+			"type": "string"
+		},
+		"recipientName": {
+			"description": "Name of the recipient",
+			"type": "string"
+		},
+		"messageContent": {
+			"description": "Content within the message",
+			"type": "string"
+		},
+		"rsvp": {
+			"description": "Is RSVP to the message required",
+			"type": "boolean"
+		}
+	},
+	"required": ["id", "senderName", "recipientName", "messageContent"]
+}

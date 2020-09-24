@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="informationStore" type="informationStoreType"/>
+  <xsd:complexType name="informationType">
+    <xsd:sequence>
+      <xsd:element name="id" type="xsd:int"/>
+      <xsd:element name="senderName" type="xsd:string"/>
+      <xsd:element name="recipientName" type="xsd:string"/>
+      <xsd:element name="messageContent" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="rsvp" type="xsd:boolean" minOccurs="0" maxOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="informationStoreType">
+    <xsd:sequence>
+      <xsd:element type="informationType" name="information"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

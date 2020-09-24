@@ -1,0 +1,29 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Message",
+	"description": "Information sent from front-end to back-end to be persisted in the database",
+	"type": "object",
+	"properties": {
+		"id": {
+			"description": "The unique identifier for the information",
+			"type": "number"
+		},
+		"informationSender": {
+			"description": "Name of the information sender",
+			"type": "string"
+		},
+		"informationReceiver": {
+			"description": "Name of the information recipient",
+			"type": "string"
+		},
+		"informationText": {
+			"description": "Content within the information",
+			"type": "string"
+		},
+		"acknowledgementRequired": {
+			"description": "Is acknowledgement required",
+			"type": "boolean"
+		}
+	},
+	"required": ["id", "informationSender", "informationReceiver", "informationText"]
+}

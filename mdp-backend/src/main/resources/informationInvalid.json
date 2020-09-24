@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "informationReceiver": "test_recipient",
+  "informationText": "test_messageContent",
+  "acknowledgementRequired": true
+}

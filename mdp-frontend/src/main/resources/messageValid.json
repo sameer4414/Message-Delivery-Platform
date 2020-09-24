@@ -1,0 +1,7 @@
+{
+  "id": 1,
+  "senderName": "test_sender",
+  "recipientName": "test_recipient",
+  "messageContent": "test_messageContent",
+  "rsvp": true
+}
