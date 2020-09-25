@@ -4,7 +4,7 @@
 
 Created 2 docker based microservices
 1. mdp-frontend (JSON)
-2. mdp-backend (XML)
+2. mdp-backend (JSON)
 
 The 2 microservices interact via Camel message transformation and processing
 
